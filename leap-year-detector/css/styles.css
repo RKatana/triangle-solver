@@ -1,0 +1,119 @@
+body{
+  background-image: url("download.jpeg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin-left: 50px solid white;
+  margin-right:50px solid white;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-right: 50px solid white;
+  border-left: 50px solid white;
+  align-items: center;
+  font-size: xx-large;
+  color:white;
+  justify-content: center;
+  display: flex;
+  width:auto;
+  height:100%;
+}
+.overlay{
+  /*text-align:center;*/
+}
+.email>p{
+  background-color: maroon;
+  border-right: 100px;
+}
+nav>ul{
+  /*float: right;*/
+  text-align: right;
+  top:0px;
+  right:5%;
+}
+nav>ul>li{
+  display: inline-block;
+  /*padding: 10px;*/
+  border:3px solid yellow;
+}
+
+nav>ul>li>a{
+  color:pink;
+  text-decoration: none;
+}
+nav>ul>li>a:hover{
+  background-color: lime;
+}
+#answer{
+  color: yellow;
+  text-decoration: underline;
+  /*background-color: white;*/
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+  color: red;
+}
+/*h2:hover{
+  font-size: xx-large;
+  border-radius: 0.8%
+  font-style:normal;
+}*/
+
+h2>a{
+  text-decoration-line: none;:
+}
+h2>a:hover{
+  box-shadow: 5px;
+  background-color: coral;
+}
+p>a{
+  text-decoration-line: none;
+}
+.email{
+  /*border-right: 100px;*/
+  position: relative;
+  left:2.5%;
+}
+.button{
+  background-color:coral;
+  color: white;
+}
+.button1{
+  background-color: coral;
+
+}
+.button2{
+  background-color: white;
+  color:red
+}
+
+.form{
+  display: inline-block;
+}
+img{
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+}
+footer{
+  text-align: center;
+  /*display:inline-block;*/
+}
+@media only screen and (max-width: 480px){
+  body{
+    color: yellow;
+  }
+  img{
+    display:flex;
+    padding: 20px;
+    justify-content:center;
+  }
+}
